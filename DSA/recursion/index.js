@@ -99,3 +99,16 @@ function B(){
         indirect(n/2)
     }
 }
+
+// Nested Recursion
+
+function nested(n){
+    if(n>100){
+        return n - 10;
+    }else {
+        return nested(nested(n+11))
+    }
+}
+
+let ans = nested(95);
+console.log(ans) // O/P -> 91

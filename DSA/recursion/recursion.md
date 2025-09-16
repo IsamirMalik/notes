@@ -94,3 +94,12 @@ T(n) = 1 + n - > O(n)
 4. **Indirect**
    - Function calls one another in a fashion that it forms a cycle . A -> B -> C -> A . 
 5. **Nested**
+   - Recursion inside recursion .
+    ```
+    function name(n){
+      if(condition){
+        name(name(n-1))
+      }
+    }
+    ```
+   - 
