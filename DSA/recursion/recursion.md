@@ -1,10 +1,18 @@
 # Recursion
 
+**It is a technique using which we solve bigger probs by calculating ans of smaller sub-probs . we generally denote the bigger prob as a function and some arguments and then call the same function with different arguments denoting smaller sub-problems . So we get the ans of smaller sub-problems and build the ans for bigger problems .**
+
+ - Stacks :-  Linear data structure ( mental model to store data in different fashion . ) in which we can add / remove / get data from the top only .
+ - Call Stack :- whenever we call a func anywhere in the code , it adds a new entry in the call stack called as stack frame . In stack frame we have context about func ( location which line is currntly executing , what variable it has ..)
+
 **A function calling itself with an exit base case known as recursive function .**
 
 **Loop has only ascending phase on the other hand recursion has ascending and descending two phases .**
 
 **Recursive functions are memory consuming .**
+
+- Story 
+  A child couldn't sleep , so her mother told a story about a little frog , who couldn't sleep , so the frog's mother told a story about a little bear , who couldn't sleep , so the bear's mother told a story about a little weasel who fall asleep .. and the little bear fell asleep ... and the little frog fall asleep ... and the child fell asleep .
 
 - **Two Phases**
   1. Calling phase .
@@ -102,4 +110,6 @@ T(n) = 1 + n - > O(n)
       }
     }
     ```
-   - 
+
+
+
