@@ -8,6 +8,7 @@ Given a number n, find the minimum number of operations required to reduce it to
 */
 
 function reduceToOne(n) {
+
     if (n === 1) {
         return 0;
     }
@@ -18,8 +19,11 @@ function reduceToOne(n) {
     if (n % 2 === 0) {
         possibilities.push(reduceToOne(n / 2));
     }
+
     possibilities.push(reduceToOne(n - 1));
+    
     return 1 + Math.min(...possibilities);
 }
 
 console.log(reduceToOne(11));
+
