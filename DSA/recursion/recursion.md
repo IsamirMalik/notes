@@ -2,8 +2,18 @@
 
 **It is a technique using which we solve bigger probs by calculating ans of smaller sub-probs . we generally denote the bigger prob as a function and some arguments and then call the same function with different arguments denoting smaller sub-problems . So we get the ans of smaller sub-problems and build the ans for bigger problems .**
 
+**A programming technique where a function call itself in order to solve a problem . It breaks a complex problem into smaller subProblems of same type until a base condition is met , preventing infinit calls .**
+
  - Stacks :-  Linear data structure ( mental model to store data in different fashion . ) in which we can add / remove / get data from the top only .
  - Call Stack :- whenever we call a func anywhere in the code , it adds a new entry in the call stack called as stack frame . In stack frame we have context about func ( location which line is currntly executing , what variable it has ..)
+ - Activation record  ( Stack frame ) : is a data structure that stores info about a function call during execution . It is pushed onto the call stack when a function is invoked and popped when the function completes .
+- Stack frame / Activation record contains : -
+    - Return address : The memory location where the program should return after the execution is complete .
+    - Parameters ( Arguments ) : The value passed to the function .
+    - Local Variable : Variables declared inside the function .
+    - Saved registers : CPU  registers that need to be restored after execution .
+    - Control link : A reference to the activation record of calling function ( useful for nested calls )
+    - Temporary storage : Intermediate values or expressions used during execution .
 
 **A function calling itself with an exit base case known as recursive function .**
 
