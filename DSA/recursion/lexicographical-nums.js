@@ -2,7 +2,6 @@
 /*
 
 Given an integer n , return all numbers in the range [1,n] sorted in lexicographical order ( generalistion of alphabetical order of the dictionaries) .
-must => TC -> O(n) and SC -> O(1)
 
 */
 
