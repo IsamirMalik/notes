@@ -1,3 +1,4 @@
+// Generate random numbers
 let x = Math.floor(Math.random() * 100 + 1);
 let y = Math.floor(Math.random() * 50 + 1);
 
