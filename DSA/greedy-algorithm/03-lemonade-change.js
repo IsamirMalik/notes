@@ -49,7 +49,7 @@ function lemonadeChange(bills) {
             if(fives == 0) return false;
         } else {
             if (fives > 0 && tens > 0) {
-                fives--, tens--
+                fives--, tens--;
             } else if (fives >= 3) {
                 fives -= 3;
             } else {

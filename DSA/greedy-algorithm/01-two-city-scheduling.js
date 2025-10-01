@@ -1,5 +1,7 @@
 // Leetcode -> 1029 .
 
+// An array having two element is known as Tuple .
+
 /*
 
 A company is planning to interview 2n people. Given the array costs where costs[i] = [aCosti, bCosti], the cost of flying the ith person to city a is aCosti, and the cost of flying the ith person to city b is bCosti.

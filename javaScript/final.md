@@ -39,11 +39,11 @@ It is a high-level , interpreted programming language that can be used on the cl
 
 ## Variables & Constant
 
-- Containers for data .
+- Containers for data . Named storage for data .
 - Ways
     1. **Var**
     2. **Let** 
-    3. **Const**
+    3. **Const** -> can not be re-assigned , Constants .
 
 - Naming Conventions 
     1. Only starts with letters , numbers , underscores and dollar signs .
