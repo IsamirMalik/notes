@@ -2,6 +2,7 @@
 
 const findUnique = (array) => {
     let unique;
+
     // array = array.sort((a,b) => a - b);
     // console.log(array)
     // for(let index = 0 ; index < array.length ; index += 2){
@@ -21,5 +22,7 @@ const findUnique = (array) => {
 }
 
 let array = [1,2,3,5,4,5,3,2,1];
-let final = findUnique(array);
+let arr2 = [0];
+let arr3 = [5,1,5,5,5,5,5]
+let final = findUnique(arr3);
 console.log(final)
