@@ -2,6 +2,7 @@
 
 let num = 100;
 
+// Sieve of Eratosthenes
 function allPrimesUptoN(num) {
 
     let primes = new Array(num + 1).fill(true);
