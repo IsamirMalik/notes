@@ -33,5 +33,4 @@ const b = 2 ;
 const c = 3 ;
 
 x = Array.of(a,b,c);
-
 console.log(x);
