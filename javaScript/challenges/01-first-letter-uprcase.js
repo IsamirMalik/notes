@@ -10,7 +10,7 @@ str1 = str1.charAt(0).toUpperCase() + str1.substring(1);
 console.log(str1);
 
 
-let str2 = 'Umar';
+let str2 = 'umar';
 str2 = `${str2[0].toUpperCase()}${str2.slice(1)}`;
 console.log(str2);
 
