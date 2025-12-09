@@ -35,8 +35,8 @@
    ```js
    let i = 5 ;
    var j = 5 ;
-   console.log(this.i) // 5
-   console.log(this.j) // undefined
+   console.log(this.i) // undefined
+   console.log(this.j) // 5
    ```
 
  4. Re-declaration :- Declaring a variable twice using `var` does not produce an error , let does .
